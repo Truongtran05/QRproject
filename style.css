@@ -1,0 +1,60 @@
+*{
+    font-family:'Gabarito',sans-serif;
+}
+
+body{
+    background-color: #D5E1EF;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 300px 1fr;
+}
+@media(max-width: 300px){
+    .grid-container{
+        display: grid;
+        grid-template-columns: 1fr 200px 1fr;
+    }
+}
+.main-box{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: white;
+    padding: 10px;
+    margin-top: 20%;
+    margin-bottom: 40%;
+    border-radius: 10px;
+    height: fit-content;
+    
+}
+
+#QR{
+    border-radius: 10px;
+    height: fit-content;
+    margin-bottom: 20px;
+}
+
+.text{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: medium;
+}
+
+.instruction{
+    font-size: small;
+    color: grey;
+}
+
+footer{
+    font-style: italic;
+    font-size: small;
+}
+
+
