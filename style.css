@@ -9,6 +9,7 @@ body{
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 300px 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 @media(max-width: 300px){
     .grid-container{
@@ -28,7 +29,6 @@ body{
     margin-bottom: 40%;
     border-radius: 10px;
     height: fit-content;
-    
 }
 
 #QR{
@@ -53,6 +53,8 @@ body{
 }
 
 footer{
+    grid-row-start: 1;
+    grid-row-end: 2; 
     font-style: italic;
     font-size: small;
 }
