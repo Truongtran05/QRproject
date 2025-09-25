@@ -9,7 +9,6 @@ body{
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 300px 1fr;
-    grid-template-rows: 1fr 1fr;
 }
 @media(max-width: 300px){
     .grid-container{
@@ -24,15 +23,15 @@ body{
     grid-column-start: 2;
     grid-column-end: 3;
     background-color: white;
-    padding: 10px;
+    padding: 0.5em;
     margin-top: 20%;
     margin-bottom: 40%;
-    border-radius: 10px;
+    border-radius: 3%;
     height: fit-content;
 }
 
 #QR{
-    border-radius: 10px;
+    border-radius: 3%;
     height: fit-content;
     margin-bottom: 20px;
 }
